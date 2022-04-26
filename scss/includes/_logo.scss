@@ -1,0 +1,21 @@
+@mixin logo {
+    &__logo {
+        cursor: pointer;
+        &_text1 {
+            color: #FFFFFF;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 29px;
+            line-height: 35px;
+        }
+        &_text2 {
+            color: #FFC80A;
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-weight: 900;
+            font-size: 29px;
+            line-height: 39px;
+        }
+    }
+}

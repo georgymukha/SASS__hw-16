@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 16 (SASS)</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="navbar">
+            <div class="navbar__logo">
+                <span class="navbar__logo_text1">Land</span><span class="navbar__logo_text2">ing</span>
+            </div>
+            <div class="navbar__right">
+                <nav class="navbar__nav">
+                    <a href="#" class="navbar__link">Products</a>
+                    <a href="#" class="navbar__link">Menu</a>
+                    <a href="#" class="navbar__link">About</a>
+                    <a href="#" class="navbar__link">Blog</a>
+                    <a href="#" class="navbar__link">Contact</a>
+                </nav>
+                <a href="#" class="navbar__search"><img class="navbar__search-icon" src="./img/search.svg" alt=""></a>
+                <button class="hamburger hamburger--collapse navbar__hamburger" type="button">
+                    <span class="hamburger-box">
+                      <span class="hamburger-inner"></span>
+                    </span>
+                  </button>
+            </div>
+        </div>
+        <section class="banner">
+            <div class="banner__pre-title">
+                The monster DNA PRO 2.0
+            </div>
+            <div class="banner__title-wrapper">
+                <div class="banner__title">
+                    Top three famous bohemian
+                </div>
+                <div class="banner__under-title">
+                    Why it is Necessary to Secure Your Mobile Devices?
+                </div>
+            </div>
+            <div class="banner__button">
+                <div class="banner__button-text">Learn more</div>
+            </div>
+            <div class="banner__img-wrapper">
+                <img class="banner__img" src="./img/box_bottom.png" alt="">
+            </div>
+        </section>
+    </header>
+    <main class="main">
+        <div class="main__header">
+            <div class="main__shuffle"><img class="main__shuffle-icon" src="./img/shuffle.svg" alt=""><span class="main__shuffle-text">Shuffle</span></div>
+            <div class="main__title">Popular</div>
+            <div class="main__space"></div>
+        </div>
+        <div class="gallery">
+            <div class="gallery__item" onclick="addNewClass(this)">
+                <img src="./img/gallery/1.png" alt="" class="gallery__img">
+                <div class="gallery__title">
+                    The number of protons
+                </div>
+                <div class="gallery__desc">
+                    Apple Inc has decided to launch the much awaited Apple Watch in the upcoming month of April.
+                </div>
+                <div class="gallery__bottom">
+                    <div class="gallery__date">
+                        <img class="gallery__date-icon" src="./img/clock.svg" alt="">
+                        <span class="gallery__date-text">1 june 2015</span>
+                    </div>
+                    <div class="gallery__views">
+                        <img class="gallery__views-icon" src="./img/views.svg" alt=""></img>
+                        <span class="gallery__views-text">343</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery__item" onclick="addNewClass(this)">
+                <img src="./img/gallery/2.png" alt="" class="gallery__img">
+                <div class="gallery__title">
+                    Sport Stadium Birdview 
+                </div>
+                <div class="gallery__desc">
+                    According to the company’s history, the classic iPhone makers have never created the product
+                </div>
+                <div class="gallery__bottom">
+                    <div class="gallery__date">
+                        <img class="gallery__date-icon" src="./img/clock.svg" alt="">
+                        <span class="gallery__date-text">1 june 2015</span>
+                    </div>
+                    <div class="gallery__views">
+                        <img class="gallery__views-icon" src="./img/views.svg" alt=""></img>
+                        <span class="gallery__views-text">343</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery__item" onclick="addNewClass(this)">
+                <img src="./img/gallery/3.png" alt="" class="gallery__img">
+                <div class="gallery__title">
+                    The number of protons
+                </div>
+                <div class="gallery__desc">
+                    Analysts have expected this product of theФ company to bring a positive change in the future
+                </div>
+                <div class="gallery__bottom">
+                    <div class="gallery__date">
+                        <img class="gallery__date-icon" src="./img/clock.svg" alt="">
+                        <span class="gallery__date-text">1 june 2015</span>
+                    </div>
+                    <div class="gallery__views">
+                        <img class="gallery__views-icon" src="./img/views.svg" alt=""></img>
+                        <span class="gallery__views-text">343</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery__item" onclick="addNewClass(this)">
+                <img src="./img/gallery/4.png" alt="" class="gallery__img">
+                <div class="gallery__title">
+                    The number of protons
+                </div>
+                <div class="gallery__desc">
+                    Taking the company’s iPod into consideration, it completely changed the perspective
+                </div>
+                <div class="gallery__bottom">
+                    <div class="gallery__date">
+                        <img class="gallery__date-icon" src="./img/clock.svg" alt="">
+                        <span class="gallery__date-text">1 june 2015</span>
+                    </div>
+                    <div class="gallery__views">
+                        <img class="gallery__views-icon" src="./img/views.svg" alt=""></img>
+                        <span class="gallery__views-text">343</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery__item" onclick="addNewClass(this)">
+                <img src="./img/gallery/5.png" alt="" class="gallery__img">
+                <div class="gallery__title">
+                    Sport Stadium Birdview
+                </div>
+                <div class="gallery__desc">
+                    Apple Inc has decided to launch the much awaited Apple Watch in the upcoming month of April and has already received around five to six million orders for the product. Analysts have expected this product of the company to bring a positive change in the future revenue generation of the company.
+                </div>
+                <div class="gallery__bottom">
+                    <div class="gallery__date">
+                        <img class="gallery__date-icon" src="./img/clock.svg" alt="">
+                        <span class="gallery__date-text">1 june 2015</span>
+                    </div>
+                    <div class="gallery__views">
+                        <img class="gallery__views-icon" src="./img/views.svg" alt=""></img>
+                        <span class="gallery__views-text">343</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="map">
+            <div class="map__item">
+                <a href="#" class="map__title">Product</a>
+                <a href="#" class="map__link">Popular Trending</a>
+                <a href="#" class="map__link">Catalog Features</a>
+            </div>
+            <div class="map__item">
+                <a href="#" class="map__title">Company</a>
+                <a href="#" class="map__link">Press Releases</a>
+                <a href="#" class="map__link">Mission</a>
+                <a href="#" class="map__link">Strategy</a>
+                <a href="#" class="map__link">Works</a>
+            </div>
+            <div class="map__item">
+                <a href="#" class="map__title">Learn more</a>
+                <a href="#" class="map__link">Support</a>
+                <a href="#" class="map__link">Developers</a>
+                <a href="#" class="map__link">Customer Service</a>
+                <a href="#" class="map__link">Guide</a>
+            </div>
+            <div class="map__item">
+                <a href="#" class="map__title">Follow us</a>
+                <div class="map__icons">
+                    <img src="./img/facebook.svg" href="#" class="map__icon">
+                    <img src="./img/twitter.svg" href="#" class="map__icon">
+                    <img src="./img/linkedin.svg" href="#" class="map__icon">
+                    <img src="./img/pinterest.svg" href="#" class="map__icon">
+                </div>
+            </div>
+        </div>
+        <div class="footer__line"></div>
+        <div class="footer__under">
+            <div class="footer__logo">
+                <span class="footer__logo_text1">Land</span><span class="footer__logo_text2">ing</span>
+            </div>
+            <a href="#" class="footer__link">Private policy</a>
+            <a href="#" class="footer__link">Terms & conditions</a>
+            <a href="#" class="footer__link">Copyright notifications</a>
+        </div>
+    </footer>
+
+    <script>
+        // Look for .hamburger
+        var hamburger = document.querySelector(".hamburger");
+        var nav = document.querySelector(".navbar__nav");
+        // On click
+        hamburger.addEventListener("click", function() {
+          // Toggle class "is-active"
+          hamburger.classList.toggle("is-active");
+          nav.classList.toggle("is-active");
+          // Do something else, like open/close menu
+        });
+
+        //Этому я сам научился, - Муха Г.
+        function addNewClass(elem){
+            elem.classList.toggle("is-active")
+        };
+      </script>
+</body>
+</html>
